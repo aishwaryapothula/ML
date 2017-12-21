@@ -17,10 +17,12 @@ xy=[]
 #Making a list of all body weights in the data
 #Making a list of all brain weights in the data
 while(i<=5):
-    a=random.randint(0,101)
-    b=random.randint(0,a)
+    a=random.randint(1,101)
+    b=a+3
+    #b=random.randint(0,a)
     body_weight.append(a)
     brain_weight.append(b)
+   
    
     dict={"body":a,"brain":b}
     print("\n{}".format(dict))
